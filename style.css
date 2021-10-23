@@ -218,3 +218,47 @@ html {
   font-family: caviar_dreamsitalic, sans-serif;
   color: #1F2937;
 }
+
+.action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 100px 250px;
+}
+
+.action-form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  flex: 1;
+
+  padding: 60px 0;
+  background-color: #3882F6;
+  border-radius: 10px;
+  color: #F9FAF8;
+  font-family: caviar_dreamsregular, sans-serif;
+  font-size: 25px;
+}
+
+.action-text p:first-of-type{
+  font-family: caviar_dreamsbold;
+}
+
+.action-form button {
+  padding: 5px 25px;
+  background-color: #3882F6;  
+  color: white;
+  border: 1px solid white;
+  font-size: 22px;
+  text-align: center;
+  font-family: caviar_dreamsbold, sans-serif;
+  border-radius: 8px;
+}
+
+.action-form button:hover {
+  background-color: white;
+  color: #3882F6;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
