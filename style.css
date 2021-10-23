@@ -158,7 +158,7 @@ html {
 
 .info-section {
   text-align: center;
-  padding-bottom: 170px;
+  padding-bottom: 100px;
 }
 
 .info-container {
@@ -177,6 +177,7 @@ html {
   height: 250px;
   border-radius: 20px;
   border: 2px solid #ddd;
+  padding: 5px;
 }
 
 .info-title {
@@ -192,4 +193,28 @@ html {
   color: #1a1a1b;
 }
 
+.quote-section {
+  background-color: #E5E7EB;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  max-width: 1000px;
+  height: auto;
+  padding: 100px 0;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-family: caviar_dreamsitalic, sans-serif;
+  color: #1F2937;
+}
